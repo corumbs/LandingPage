@@ -1,10 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
+body {
+    font-size: 100%;
+    background: #F5F5F5;
+}
+.cabecalho {
+    display: flex;
+    font-size: 200%;
+    width: 1920px;
+    height: 125px;
+    flex-direction: row;
+    background: linear-gradient(89.74deg, #F5F5F5 30.29%, #A6A6A6 75.58%);
+    align-items: center;
+    justify-content: space-around;
+    gap: 900px;
+    padding: 24px;
+    
 
-.header-logo {
-    width: 800px;
+}
+.cabecalhoDegrade {
+    position: absolute;
+    width: 1133px;
+    height: 105px;
+    left: 787px;
+    top: 120px;
+}
+.cabecalhoLogo{
+    width: 186px;
+    height: 125px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.inicial{
+    display: flex;
+    align-items: center;
+}
+.primTraco{
+    margin-top: -5%;
+}
+.ccNome{
+    position: absolute;
+    width: 730px;
+    height: 181px;
+    left: 580px;
+    top: 490px;
+    
 }
