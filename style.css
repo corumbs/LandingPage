@@ -38,11 +38,12 @@ body {
     margin-left: 100px;
 }
 .inicial{
+    width: 1920px;
     display: flex;
     align-items: center;
 }
 .primTraco{
-    margin-top: -5%;
+    margin-top: -20px;
 }
 .ccNome{
     position: absolute;
@@ -50,5 +51,28 @@ body {
     height: 181px;
     left: 580px;
     top: 490px;
+    
+}
+.servicos{
+    display: flex;
+    width: 1920px;
+    flex-direction: row;
+    align-items:stretch;
+    justify-content: space-between;
+    margin-top: -10%;
+    gap: 20%;
+}
+.servicosInfo{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    justify-content: space-around;
+    
+}
+
+.servicosInfoTitulo{
+    align-self: flex-start;
+    font-size: 64px;
+    margin-left: 15%;
     
 }
