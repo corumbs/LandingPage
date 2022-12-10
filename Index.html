@@ -10,40 +10,71 @@
 <body>
     <header class="cabecalho">
         <img class="cabecalhoLogo" src="ccLogo.svg" alt="Logo Corumba Construção">
-        <img class="cabecalhoDegrade" src="cabecalhoDegrade.svg" alt="Degrade Cabeçalho">
-        <nav class="cabecalhoMenuItem">
-            <a href="#servicos">Serviços</a>
-            <a href="#obras">Obras</a>
-            <a href="contato">Contato</a>
+        <nav class="cabecalhoItem">
+            <a class="cabecalhoItemServicos" href="#servicos">Serviços</a>
+            <a class="cabecalhoItemObras" href="#obras">Obras</a>
+            <a class="cabecalhoItemContato" href="contato">Contato</a>
         </nav>
-
+        
     </header>
-
+    
     <main>
         <section class="inicial">
-            <div>
-                <img class="primTraco" src="primTraco.svg" alt="Traços vermelhos">
-                <img class="ccNome" src="ccNome.svg" alt="Nome Corumba Construção">
-            </div>
+            <img class="primTraco" src="primTraco.svg" alt="Traços vermelhos">
+            <img class="ccNome" src="ccNome.svg" alt="Nome Corumba Construção">
+
         </section>
 
         <section class="servicos" id="servicos">
             <img class="seguTraco" src="seguTraco.svg" alt="Traço vermelho">
             <div class="servicosInfo" >
                 <h2 class="servicosInfoTitulo" ><strong>Serviços</strong></h2>
-                <div>
-                    <img class="servicosInfoImg" src="quadradoServicos1.svg" alt="Imagem engenharia">
-                    <img class="servicosInfoImg" src="quadradoServicos2.svg" alt="Imagem encoporação">
-                    <img class="servicosInfoImg" src="quadradoServicos2.svg" alt="Imagem encoporação">
+                <div class="servicosInfoImg">
+                    <div class="servicosInfoImgEng"> 
+                        <img src="quadradoServicos1.svg" alt="Imagem engenharia">
+                        <h3 class="servicosInfoImgEngTextoTitulo">Engenharia</h3>
+                        <p class="servicosInfoImgEngTexto">Acessoria técnica nos serviços de engenharia
+                            e projetos</p>
+                    </div>
+                    <div class="servicosInfoImgInc">
+                        <img src="quadradoServicos2.svg" alt="Imagem encoporação">
+                        <h3 class="servicosInfoImgIncTextoTitulo">Incorporação</h3>
+                        <p class="servicosInfoImgIncTexto">Construção e venda de imóveis</p>
+                    </div>
+                    <div class="servicosInfoImgSer">
+                        <img src="quadradoServicos2.svg" alt="Imagem encoporação">
+                        <h3 class="servicosInfoImgSerTextoTitulo">Serviços de Construção</h3>
+                        <p class="servicosInfoImgSerTexto">Serviços gerais de pintura de imóveis</p>
+                    </div>
                 </div>
-                <p class="servicosInfoItem">Este site tem</p>
             </div>
             <img class="quadrados" src="quadrados.svg" alt="Quadrados">
 
         </section>
         <section class="obras" id="obras">
             <h2 class="obrasTitulo"><strong>Obras</strong></h2>
-            <p class="obras item">Este site tem</p>
+            <div class="carossel">
+                <input type="radio" name="slide" id="slide1">
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+                <div class="slide s1">
+                    <img src="obra (1).svg" alt="Obra 1">
+
+                </div>
+                <div class="slide">
+                    <img src="obra (2).svg" alt="Obra 2">
+                </div>
+                <div class="slide">
+                    <img src="obra (3).svg" alt="Obra 3">
+                </div>
+                <div class="slide">
+                    <img src="obra (4).svg" alt="Obra 4">
+                </div>
+            </div>
+            <div class="navegacaoCarossel">
+                
+            </div>
             <img class="tercTraco" src="tercTraco.svg" alt="Traço vermelho">
         </section>
         <section class="contato" id="contato">
@@ -54,7 +85,7 @@
     </main>
     
     <footer>
-        <img class="quadRodape" src="quadradoRodape.svg" alt="Quadrado rodape">
+        <img class="quadRodape" src="quadradoRodapeg" alt="Quadrado rodape">
         <img class="teleIcone" src="telefoneIcone.svg" alt="Icone telefone">
         <img class="instIcone" src="instaIcone.svg" alt="Icone instagram">
         <img class="faceIcone" src="facebookIcone.svg" alt="Icone facebook">
