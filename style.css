@@ -22,7 +22,6 @@ body {
     justify-content: space-around;
     gap: 65%;
     padding: 1%;
-
 }
 .cabecalhoLogo{
     margin-top: 2%;
@@ -34,8 +33,6 @@ body {
     margin-left: -30%;
     justify-content: space-around;
     gap: 5%;
-
-    
 }
 .cabecalhoItemServicos:hover{
     font-weight: bold;
@@ -50,12 +47,9 @@ body {
     color: #ff0000;
 }
 .inicial{
-
     display: flex;
     flex-direction: row;
-
 }
-
 .primTraco{
     margin-top: -5%;
 }
@@ -63,7 +57,6 @@ body {
     padding:10%;
 }
 .servicos{
-
     display: flex;
     flex-direction: row;
     align-items:stretch;
@@ -79,13 +72,10 @@ body {
     justify-content: initial;
     gap: 20%;
 }
-
 .servicosInfoTitulo{
     align-self: flex-start;
     font-size: 500%;
     align-self: center;
-
-    
 }
 .servicosInfoImg{
     display: flex;
@@ -94,16 +84,13 @@ body {
     text-align: center;
 }
 .servicosInfoImgEngTextoTitulo{
-    font-size: 170%;
-    
+    font-size: 170%; 
 }
 .servicosInfoImgEngTexto{
     text-align: center;
-
 }
 .servicosInfoImgIncTextoTitulo{
     font-size: 170%;
-    
 }
 .servicosInfoImgIncTexto{
     text-align: center;
@@ -111,11 +98,9 @@ body {
 }
 .servicosInfoImgSerTextoTitulo{
     font-size: 170%;
-    
 }
 .servicosInfoImgTexto{
     text-align: center;
-
 }
 .obras{
     display: flex;
@@ -130,7 +115,6 @@ body {
     height: 600px;
     overflow: hidden;
     display: flex;
-
 }
 .slide{
     width:100%;
@@ -270,7 +254,6 @@ input{
         align-self: center;
         margin-top: 10%;
     }
-    
     .servicosInfoImg{
         display: inline;
         margin-top: 10%;
@@ -285,14 +268,16 @@ input{
         display: none;
     }
     .obras{
-        font-size: 150%;
+        font-size: 130%;
     }
     .carosselImg{
         margin-top: 10%;
-        
     }
     .tercTraco{
         display: none;
+    }
+    .contatoTitulo{
+        font-size: 150%;
     }
     .contQuadrado{
         display: none;
@@ -308,11 +293,9 @@ input{
     }
     .instIcone{
         max-width: 30px;
-
     }
     .faceIcone{
         max-width: 30px;
-
     }
     .zapIcone{
         max-width: 30px;
@@ -321,8 +304,6 @@ input{
         max-width: 30px;
     }
     .rodapeBaixoItens{
-
         gap: 16%;
-
     }
 }
